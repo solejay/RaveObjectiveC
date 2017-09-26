@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		787F864B1F7A33FB0081D519 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 787F864A1F7A33FB0081D519 /* main.m */; };
+		787F864E1F7A33FB0081D519 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 787F864D1F7A33FB0081D519 /* AppDelegate.m */; };
+		787F86511F7A33FB0081D519 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 787F86501F7A33FB0081D519 /* ViewController.m */; };
+		787F86541F7A33FB0081D519 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 787F86521F7A33FB0081D519 /* Main.storyboard */; };
+		787F86561F7A33FB0081D519 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 787F86551F7A33FB0081D519 /* Assets.xcassets */; };
+		787F86591F7A33FB0081D519 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 787F86571F7A33FB0081D519 /* LaunchScreen.storyboard */; };
+		787F86641F7A33FB0081D519 /* RaveObjCDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 787F86631F7A33FB0081D519 /* RaveObjCDemoTests.m */; };
+		787F866F1F7A33FB0081D519 /* RaveObjCDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 787F866E1F7A33FB0081D519 /* RaveObjCDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		787F86601F7A33FB0081D519 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 787F863E1F7A33FA0081D519 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 787F86451F7A33FB0081D519;
+			remoteInfo = RaveObjCDemo;
+		};
+		787F866B1F7A33FB0081D519 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 787F863E1F7A33FA0081D519 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 787F86451F7A33FB0081D519;
+			remoteInfo = RaveObjCDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		787F86461F7A33FB0081D519 /* RaveObjCDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RaveObjCDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		787F864A1F7A33FB0081D519 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		787F864C1F7A33FB0081D519 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		787F864D1F7A33FB0081D519 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		787F864F1F7A33FB0081D519 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		787F86501F7A33FB0081D519 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		787F86531F7A33FB0081D519 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		787F86551F7A33FB0081D519 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		787F86581F7A33FB0081D519 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		787F865A1F7A33FB0081D519 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		787F865F1F7A33FB0081D519 /* RaveObjCDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RaveObjCDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		787F86631F7A33FB0081D519 /* RaveObjCDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RaveObjCDemoTests.m; sourceTree = "<group>"; };
+		787F86651F7A33FB0081D519 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		787F866A1F7A33FB0081D519 /* RaveObjCDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RaveObjCDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		787F866E1F7A33FB0081D519 /* RaveObjCDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RaveObjCDemoUITests.m; sourceTree = "<group>"; };
+		787F86701F7A33FB0081D519 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		787F86431F7A33FB0081D519 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		787F865C1F7A33FB0081D519 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		787F86671F7A33FB0081D519 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		787F863D1F7A33FA0081D519 = {
+			isa = PBXGroup;
+			children = (
+				787F86481F7A33FB0081D519 /* RaveObjCDemo */,
+				787F86621F7A33FB0081D519 /* RaveObjCDemoTests */,
+				787F866D1F7A33FB0081D519 /* RaveObjCDemoUITests */,
+				787F86471F7A33FB0081D519 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		787F86471F7A33FB0081D519 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				787F86461F7A33FB0081D519 /* RaveObjCDemo.app */,
+				787F865F1F7A33FB0081D519 /* RaveObjCDemoTests.xctest */,
+				787F866A1F7A33FB0081D519 /* RaveObjCDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		787F86481F7A33FB0081D519 /* RaveObjCDemo */ = {
+			isa = PBXGroup;
+			children = (
+				787F864C1F7A33FB0081D519 /* AppDelegate.h */,
+				787F864D1F7A33FB0081D519 /* AppDelegate.m */,
+				787F864F1F7A33FB0081D519 /* ViewController.h */,
+				787F86501F7A33FB0081D519 /* ViewController.m */,
+				787F86521F7A33FB0081D519 /* Main.storyboard */,
+				787F86551F7A33FB0081D519 /* Assets.xcassets */,
+				787F86571F7A33FB0081D519 /* LaunchScreen.storyboard */,
+				787F865A1F7A33FB0081D519 /* Info.plist */,
+				787F86491F7A33FB0081D519 /* Supporting Files */,
+			);
+			path = RaveObjCDemo;
+			sourceTree = "<group>";
+		};
+		787F86491F7A33FB0081D519 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				787F864A1F7A33FB0081D519 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		787F86621F7A33FB0081D519 /* RaveObjCDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				787F86631F7A33FB0081D519 /* RaveObjCDemoTests.m */,
+				787F86651F7A33FB0081D519 /* Info.plist */,
+			);
+			path = RaveObjCDemoTests;
+			sourceTree = "<group>";
+		};
+		787F866D1F7A33FB0081D519 /* RaveObjCDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				787F866E1F7A33FB0081D519 /* RaveObjCDemoUITests.m */,
+				787F86701F7A33FB0081D519 /* Info.plist */,
+			);
+			path = RaveObjCDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		787F86451F7A33FB0081D519 /* RaveObjCDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 787F86731F7A33FB0081D519 /* Build configuration list for PBXNativeTarget "RaveObjCDemo" */;
+			buildPhases = (
+				787F86421F7A33FB0081D519 /* Sources */,
+				787F86431F7A33FB0081D519 /* Frameworks */,
+				787F86441F7A33FB0081D519 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RaveObjCDemo;
+			productName = RaveObjCDemo;
+			productReference = 787F86461F7A33FB0081D519 /* RaveObjCDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		787F865E1F7A33FB0081D519 /* RaveObjCDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 787F86761F7A33FB0081D519 /* Build configuration list for PBXNativeTarget "RaveObjCDemoTests" */;
+			buildPhases = (
+				787F865B1F7A33FB0081D519 /* Sources */,
+				787F865C1F7A33FB0081D519 /* Frameworks */,
+				787F865D1F7A33FB0081D519 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				787F86611F7A33FB0081D519 /* PBXTargetDependency */,
+			);
+			name = RaveObjCDemoTests;
+			productName = RaveObjCDemoTests;
+			productReference = 787F865F1F7A33FB0081D519 /* RaveObjCDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		787F86691F7A33FB0081D519 /* RaveObjCDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 787F86791F7A33FB0081D519 /* Build configuration list for PBXNativeTarget "RaveObjCDemoUITests" */;
+			buildPhases = (
+				787F86661F7A33FB0081D519 /* Sources */,
+				787F86671F7A33FB0081D519 /* Frameworks */,
+				787F86681F7A33FB0081D519 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				787F866C1F7A33FB0081D519 /* PBXTargetDependency */,
+			);
+			name = RaveObjCDemoUITests;
+			productName = RaveObjCDemoUITests;
+			productReference = 787F866A1F7A33FB0081D519 /* RaveObjCDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		787F863E1F7A33FA0081D519 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Olusegun Solaja";
+				TargetAttributes = {
+					787F86451F7A33FB0081D519 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = EEN5SMD5RF;
+						ProvisioningStyle = Automatic;
+					};
+					787F865E1F7A33FB0081D519 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = EEN5SMD5RF;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 787F86451F7A33FB0081D519;
+					};
+					787F86691F7A33FB0081D519 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = EEN5SMD5RF;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 787F86451F7A33FB0081D519;
+					};
+				};
+			};
+			buildConfigurationList = 787F86411F7A33FA0081D519 /* Build configuration list for PBXProject "RaveObjCDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 787F863D1F7A33FA0081D519;
+			productRefGroup = 787F86471F7A33FB0081D519 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				787F86451F7A33FB0081D519 /* RaveObjCDemo */,
+				787F865E1F7A33FB0081D519 /* RaveObjCDemoTests */,
+				787F86691F7A33FB0081D519 /* RaveObjCDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		787F86441F7A33FB0081D519 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				787F86591F7A33FB0081D519 /* LaunchScreen.storyboard in Resources */,
+				787F86561F7A33FB0081D519 /* Assets.xcassets in Resources */,
+				787F86541F7A33FB0081D519 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		787F865D1F7A33FB0081D519 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		787F86681F7A33FB0081D519 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		787F86421F7A33FB0081D519 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				787F86511F7A33FB0081D519 /* ViewController.m in Sources */,
+				787F864E1F7A33FB0081D519 /* AppDelegate.m in Sources */,
+				787F864B1F7A33FB0081D519 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		787F865B1F7A33FB0081D519 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				787F86641F7A33FB0081D519 /* RaveObjCDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		787F86661F7A33FB0081D519 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				787F866F1F7A33FB0081D519 /* RaveObjCDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		787F86611F7A33FB0081D519 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 787F86451F7A33FB0081D519 /* RaveObjCDemo */;
+			targetProxy = 787F86601F7A33FB0081D519 /* PBXContainerItemProxy */;
+		};
+		787F866C1F7A33FB0081D519 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 787F86451F7A33FB0081D519 /* RaveObjCDemo */;
+			targetProxy = 787F866B1F7A33FB0081D519 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		787F86521F7A33FB0081D519 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				787F86531F7A33FB0081D519 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		787F86571F7A33FB0081D519 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				787F86581F7A33FB0081D519 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		787F86711F7A33FB0081D519 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		787F86721F7A33FB0081D519 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		787F86741F7A33FB0081D519 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = EEN5SMD5RF;
+				INFOPLIST_FILE = RaveObjCDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = flutterwave.RaveObjCDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		787F86751F7A33FB0081D519 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = EEN5SMD5RF;
+				INFOPLIST_FILE = RaveObjCDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = flutterwave.RaveObjCDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		787F86771F7A33FB0081D519 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = EEN5SMD5RF;
+				INFOPLIST_FILE = RaveObjCDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = flutterwave.RaveObjCDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RaveObjCDemo.app/RaveObjCDemo";
+			};
+			name = Debug;
+		};
+		787F86781F7A33FB0081D519 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = EEN5SMD5RF;
+				INFOPLIST_FILE = RaveObjCDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = flutterwave.RaveObjCDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RaveObjCDemo.app/RaveObjCDemo";
+			};
+			name = Release;
+		};
+		787F867A1F7A33FB0081D519 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = EEN5SMD5RF;
+				INFOPLIST_FILE = RaveObjCDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = flutterwave.RaveObjCDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RaveObjCDemo;
+			};
+			name = Debug;
+		};
+		787F867B1F7A33FB0081D519 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = EEN5SMD5RF;
+				INFOPLIST_FILE = RaveObjCDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = flutterwave.RaveObjCDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RaveObjCDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		787F86411F7A33FA0081D519 /* Build configuration list for PBXProject "RaveObjCDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				787F86711F7A33FB0081D519 /* Debug */,
+				787F86721F7A33FB0081D519 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		787F86731F7A33FB0081D519 /* Build configuration list for PBXNativeTarget "RaveObjCDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				787F86741F7A33FB0081D519 /* Debug */,
+				787F86751F7A33FB0081D519 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		787F86761F7A33FB0081D519 /* Build configuration list for PBXNativeTarget "RaveObjCDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				787F86771F7A33FB0081D519 /* Debug */,
+				787F86781F7A33FB0081D519 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		787F86791F7A33FB0081D519 /* Build configuration list for PBXNativeTarget "RaveObjCDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				787F867A1F7A33FB0081D519 /* Debug */,
+				787F867B1F7A33FB0081D519 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 787F863E1F7A33FA0081D519 /* Project object */;
+}
