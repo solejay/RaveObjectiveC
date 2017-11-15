@@ -1,0 +1,6 @@
+framework module Pods_RaveObjCDemo {
+  umbrella header "Pods-RaveObjCDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}

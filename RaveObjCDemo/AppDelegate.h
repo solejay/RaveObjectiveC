@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "RaveObjCDemo-Swift.h"
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 

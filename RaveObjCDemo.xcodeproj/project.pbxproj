@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		696836158C9904541C077536 /* Pods_RaveObjCDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C12C6D7A43B03E7EE3E1200 /* Pods_RaveObjCDemoTests.framework */; };
+		7800D5981F7A9D8000AFC430 /* VSTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7800D5971F7A9D8000AFC430 /* VSTextField.swift */; };
+		7800D59B1F7B8B4400AFC430 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 7800D59A1F7B8B4400AFC430 /* Constants.m */; };
 		787F864B1F7A33FB0081D519 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 787F864A1F7A33FB0081D519 /* main.m */; };
 		787F864E1F7A33FB0081D519 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 787F864D1F7A33FB0081D519 /* AppDelegate.m */; };
 		787F86511F7A33FB0081D519 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 787F86501F7A33FB0081D519 /* ViewController.m */; };
@@ -15,6 +18,11 @@
 		787F86591F7A33FB0081D519 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 787F86571F7A33FB0081D519 /* LaunchScreen.storyboard */; };
 		787F86641F7A33FB0081D519 /* RaveObjCDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 787F86631F7A33FB0081D519 /* RaveObjCDemoTests.m */; };
 		787F866F1F7A33FB0081D519 /* RaveObjCDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 787F866E1F7A33FB0081D519 /* RaveObjCDemoUITests.m */; };
+		787F86801F7A349A0081D519 /* CustomSegementControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787F867F1F7A349A0081D519 /* CustomSegementControl.swift */; };
+		787F86841F7A636F0081D519 /* RavePayController.m in Sources */ = {isa = PBXBuildFile; fileRef = 787F86831F7A636F0081D519 /* RavePayController.m */; };
+		787F86881F7A65350081D519 /* UIColor+HexString.m in Sources */ = {isa = PBXBuildFile; fileRef = 787F86871F7A65350081D519 /* UIColor+HexString.m */; };
+		DC362D862FDA83A80B0D73A9 /* Pods_RaveObjCDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CFEB151BF5D75D66ABA66D5 /* Pods_RaveObjCDemo.framework */; };
+		F922D6560A0765D7E3B1239A /* Pods_RaveObjCDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FAD6C10690D988E16940A34 /* Pods_RaveObjCDemoUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +43,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3CFEB151BF5D75D66ABA66D5 /* Pods_RaveObjCDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RaveObjCDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C154715497EA1F478C9E6FB /* Pods-RaveObjCDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RaveObjCDemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RaveObjCDemoUITests/Pods-RaveObjCDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4E1099F0DDE7BDA350969C3B /* Pods-RaveObjCDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RaveObjCDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RaveObjCDemo/Pods-RaveObjCDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		4FAD6C10690D988E16940A34 /* Pods_RaveObjCDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RaveObjCDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A5A934E551D03D69B95B90B /* Pods-RaveObjCDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RaveObjCDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-RaveObjCDemo/Pods-RaveObjCDemo.release.xcconfig"; sourceTree = "<group>"; };
+		5C12C6D7A43B03E7EE3E1200 /* Pods_RaveObjCDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RaveObjCDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7800D5971F7A9D8000AFC430 /* VSTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VSTextField.swift; sourceTree = "<group>"; };
+		7800D5991F7B8B4300AFC430 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		7800D59A1F7B8B4400AFC430 /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
 		787F86461F7A33FB0081D519 /* RaveObjCDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RaveObjCDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		787F864A1F7A33FB0081D519 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		787F864C1F7A33FB0081D519 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +68,15 @@
 		787F866A1F7A33FB0081D519 /* RaveObjCDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RaveObjCDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		787F866E1F7A33FB0081D519 /* RaveObjCDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RaveObjCDemoUITests.m; sourceTree = "<group>"; };
 		787F86701F7A33FB0081D519 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		787F867E1F7A34990081D519 /* RaveObjCDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RaveObjCDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		787F867F1F7A349A0081D519 /* CustomSegementControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomSegementControl.swift; sourceTree = "<group>"; };
+		787F86821F7A636F0081D519 /* RavePayController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RavePayController.h; sourceTree = "<group>"; };
+		787F86831F7A636F0081D519 /* RavePayController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RavePayController.m; sourceTree = "<group>"; };
+		787F86861F7A65350081D519 /* UIColor+HexString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HexString.h"; sourceTree = "<group>"; };
+		787F86871F7A65350081D519 /* UIColor+HexString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HexString.m"; sourceTree = "<group>"; };
+		BCF3FA69DD4FAC8D1395502B /* Pods-RaveObjCDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RaveObjCDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RaveObjCDemoUITests/Pods-RaveObjCDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C3411604A989DA852C8976F6 /* Pods-RaveObjCDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RaveObjCDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RaveObjCDemoTests/Pods-RaveObjCDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E591422A81F84B0DFDC2E866 /* Pods-RaveObjCDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RaveObjCDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RaveObjCDemoTests/Pods-RaveObjCDemoTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC362D862FDA83A80B0D73A9 /* Pods_RaveObjCDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				696836158C9904541C077536 /* Pods_RaveObjCDemoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +100,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F922D6560A0765D7E3B1239A /* Pods_RaveObjCDemoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		517C5F1F6FE1DDD9AB75CCEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3CFEB151BF5D75D66ABA66D5 /* Pods_RaveObjCDemo.framework */,
+				5C12C6D7A43B03E7EE3E1200 /* Pods_RaveObjCDemoTests.framework */,
+				4FAD6C10690D988E16940A34 /* Pods_RaveObjCDemoUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		787F863D1F7A33FA0081D519 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +124,8 @@
 				787F86621F7A33FB0081D519 /* RaveObjCDemoTests */,
 				787F866D1F7A33FB0081D519 /* RaveObjCDemoUITests */,
 				787F86471F7A33FB0081D519 /* Products */,
+				7F2ED84D452D095095F258E3 /* Pods */,
+				517C5F1F6FE1DDD9AB75CCEA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +142,10 @@
 		787F86481F7A33FB0081D519 /* RaveObjCDemo */ = {
 			isa = PBXGroup;
 			children = (
-				787F864C1F7A33FB0081D519 /* AppDelegate.h */,
-				787F864D1F7A33FB0081D519 /* AppDelegate.m */,
-				787F864F1F7A33FB0081D519 /* ViewController.h */,
-				787F86501F7A33FB0081D519 /* ViewController.m */,
+				787F86851F7A64820081D519 /* Utils */,
+				787F86811F7A634D0081D519 /* Rave */,
+				787F867D1F7A34840081D519 /* CustomViews */,
+				787F867C1F7A34210081D519 /* AppConfig */,
 				787F86521F7A33FB0081D519 /* Main.storyboard */,
 				787F86551F7A33FB0081D519 /* Assets.xcassets */,
 				787F86571F7A33FB0081D519 /* LaunchScreen.storyboard */,
@@ -140,6 +181,60 @@
 			path = RaveObjCDemoUITests;
 			sourceTree = "<group>";
 		};
+		787F867C1F7A34210081D519 /* AppConfig */ = {
+			isa = PBXGroup;
+			children = (
+				787F864C1F7A33FB0081D519 /* AppDelegate.h */,
+				787F864D1F7A33FB0081D519 /* AppDelegate.m */,
+				787F864F1F7A33FB0081D519 /* ViewController.h */,
+				787F86501F7A33FB0081D519 /* ViewController.m */,
+			);
+			name = AppConfig;
+			sourceTree = "<group>";
+		};
+		787F867D1F7A34840081D519 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				7800D5971F7A9D8000AFC430 /* VSTextField.swift */,
+				787F867F1F7A349A0081D519 /* CustomSegementControl.swift */,
+				787F867E1F7A34990081D519 /* RaveObjCDemo-Bridging-Header.h */,
+			);
+			name = CustomViews;
+			sourceTree = "<group>";
+		};
+		787F86811F7A634D0081D519 /* Rave */ = {
+			isa = PBXGroup;
+			children = (
+				787F86821F7A636F0081D519 /* RavePayController.h */,
+				787F86831F7A636F0081D519 /* RavePayController.m */,
+			);
+			name = Rave;
+			sourceTree = "<group>";
+		};
+		787F86851F7A64820081D519 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				787F86861F7A65350081D519 /* UIColor+HexString.h */,
+				787F86871F7A65350081D519 /* UIColor+HexString.m */,
+				7800D5991F7B8B4300AFC430 /* Constants.h */,
+				7800D59A1F7B8B4400AFC430 /* Constants.m */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		7F2ED84D452D095095F258E3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4E1099F0DDE7BDA350969C3B /* Pods-RaveObjCDemo.debug.xcconfig */,
+				5A5A934E551D03D69B95B90B /* Pods-RaveObjCDemo.release.xcconfig */,
+				C3411604A989DA852C8976F6 /* Pods-RaveObjCDemoTests.debug.xcconfig */,
+				E591422A81F84B0DFDC2E866 /* Pods-RaveObjCDemoTests.release.xcconfig */,
+				4C154715497EA1F478C9E6FB /* Pods-RaveObjCDemoUITests.debug.xcconfig */,
+				BCF3FA69DD4FAC8D1395502B /* Pods-RaveObjCDemoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +242,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 787F86731F7A33FB0081D519 /* Build configuration list for PBXNativeTarget "RaveObjCDemo" */;
 			buildPhases = (
+				AD6D3789DDC18B932B07895E /* [CP] Check Pods Manifest.lock */,
 				787F86421F7A33FB0081D519 /* Sources */,
 				787F86431F7A33FB0081D519 /* Frameworks */,
 				787F86441F7A33FB0081D519 /* Resources */,
+				F48FCDC5DEBE9027D9368867 /* [CP] Embed Pods Frameworks */,
+				1129984E18C945B8C0B025C2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,9 +262,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 787F86761F7A33FB0081D519 /* Build configuration list for PBXNativeTarget "RaveObjCDemoTests" */;
 			buildPhases = (
+				77536B9EF8392504C5BD98C1 /* [CP] Check Pods Manifest.lock */,
 				787F865B1F7A33FB0081D519 /* Sources */,
 				787F865C1F7A33FB0081D519 /* Frameworks */,
 				787F865D1F7A33FB0081D519 /* Resources */,
+				AAF141542442B1E025268630 /* [CP] Embed Pods Frameworks */,
+				DED994D9576978223A5854C5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,9 +283,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 787F86791F7A33FB0081D519 /* Build configuration list for PBXNativeTarget "RaveObjCDemoUITests" */;
 			buildPhases = (
+				F639DB35C2A03BDF8DEECD2E /* [CP] Check Pods Manifest.lock */,
 				787F86661F7A33FB0081D519 /* Sources */,
 				787F86671F7A33FB0081D519 /* Frameworks */,
 				787F86681F7A33FB0081D519 /* Resources */,
+				2A541239A118A4091FB0513D /* [CP] Embed Pods Frameworks */,
+				6DEA8993C9DCFFE0894CB9CA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -208,6 +312,7 @@
 					787F86451F7A33FB0081D519 = {
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = EEN5SMD5RF;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 					787F865E1F7A33FB0081D519 = {
@@ -271,13 +376,172 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1129984E18C945B8C0B025C2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RaveObjCDemo/Pods-RaveObjCDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2A541239A118A4091FB0513D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RaveObjCDemoUITests/Pods-RaveObjCDemoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6DEA8993C9DCFFE0894CB9CA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RaveObjCDemoUITests/Pods-RaveObjCDemoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		77536B9EF8392504C5BD98C1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RaveObjCDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AAF141542442B1E025268630 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RaveObjCDemoTests/Pods-RaveObjCDemoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD6D3789DDC18B932B07895E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RaveObjCDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DED994D9576978223A5854C5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RaveObjCDemoTests/Pods-RaveObjCDemoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F48FCDC5DEBE9027D9368867 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-RaveObjCDemo/Pods-RaveObjCDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/BlocksKit/BlocksKit.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BlocksKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RaveObjCDemo/Pods-RaveObjCDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F639DB35C2A03BDF8DEECD2E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RaveObjCDemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		787F86421F7A33FB0081D519 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7800D5981F7A9D8000AFC430 /* VSTextField.swift in Sources */,
+				787F86881F7A65350081D519 /* UIColor+HexString.m in Sources */,
+				787F86841F7A636F0081D519 /* RavePayController.m in Sources */,
+				7800D59B1F7B8B4400AFC430 /* Constants.m in Sources */,
 				787F86511F7A33FB0081D519 /* ViewController.m in Sources */,
 				787F864E1F7A33FB0081D519 /* AppDelegate.m in Sources */,
+				787F86801F7A349A0081D519 /* CustomSegementControl.swift in Sources */,
 				787F864B1F7A33FB0081D519 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -425,31 +689,46 @@
 		};
 		787F86741F7A33FB0081D519 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E1099F0DDE7BDA350969C3B /* Pods-RaveObjCDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = EEN5SMD5RF;
 				INFOPLIST_FILE = RaveObjCDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = flutterwave.RaveObjCDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "RaveObjCDemo/RaveObjCDemo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		787F86751F7A33FB0081D519 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A5A934E551D03D69B95B90B /* Pods-RaveObjCDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = EEN5SMD5RF;
 				INFOPLIST_FILE = RaveObjCDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = flutterwave.RaveObjCDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "RaveObjCDemo/RaveObjCDemo-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
 		787F86771F7A33FB0081D519 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3411604A989DA852C8976F6 /* Pods-RaveObjCDemoTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = EEN5SMD5RF;
 				INFOPLIST_FILE = RaveObjCDemoTests/Info.plist;
@@ -462,7 +741,9 @@
 		};
 		787F86781F7A33FB0081D519 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E591422A81F84B0DFDC2E866 /* Pods-RaveObjCDemoTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = EEN5SMD5RF;
 				INFOPLIST_FILE = RaveObjCDemoTests/Info.plist;
@@ -475,7 +756,9 @@
 		};
 		787F867A1F7A33FB0081D519 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C154715497EA1F478C9E6FB /* Pods-RaveObjCDemoUITests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = EEN5SMD5RF;
 				INFOPLIST_FILE = RaveObjCDemoUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -487,7 +770,9 @@
 		};
 		787F867B1F7A33FB0081D519 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCF3FA69DD4FAC8D1395502B /* Pods-RaveObjCDemoUITests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = EEN5SMD5RF;
 				INFOPLIST_FILE = RaveObjCDemoUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -516,6 +801,7 @@
 				787F86751F7A33FB0081D519 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		787F86761F7A33FB0081D519 /* Build configuration list for PBXNativeTarget "RaveObjCDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +810,7 @@
 				787F86781F7A33FB0081D519 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		787F86791F7A33FB0081D519 /* Build configuration list for PBXNativeTarget "RaveObjCDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +819,7 @@
 				787F867B1F7A33FB0081D519 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
