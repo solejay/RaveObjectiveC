@@ -21,6 +21,9 @@
 		787F86801F7A349A0081D519 /* CustomSegementControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787F867F1F7A349A0081D519 /* CustomSegementControl.swift */; };
 		787F86841F7A636F0081D519 /* RavePayController.m in Sources */ = {isa = PBXBuildFile; fileRef = 787F86831F7A636F0081D519 /* RavePayController.m */; };
 		787F86881F7A65350081D519 /* UIColor+HexString.m in Sources */ = {isa = PBXBuildFile; fileRef = 787F86871F7A65350081D519 /* UIColor+HexString.m */; };
+		A54029421FD2F5E80076C2F1 /* NetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A54029411FD2F5E80076C2F1 /* NetworkManager.m */; };
+		A5FACDC91FD3010300B2101A /* RaveEncryption.m in Sources */ = {isa = PBXBuildFile; fileRef = A5FACDC81FD3010300B2101A /* RaveEncryption.m */; };
+		A5FACDCB1FD30DD100B2101A /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5FACDCA1FD30DD100B2101A /* Security.framework */; };
 		DC362D862FDA83A80B0D73A9 /* Pods_RaveObjCDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CFEB151BF5D75D66ABA66D5 /* Pods_RaveObjCDemo.framework */; };
 		F922D6560A0765D7E3B1239A /* Pods_RaveObjCDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FAD6C10690D988E16940A34 /* Pods_RaveObjCDemoUITests.framework */; };
 /* End PBXBuildFile section */
@@ -74,6 +77,11 @@
 		787F86831F7A636F0081D519 /* RavePayController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RavePayController.m; sourceTree = "<group>"; };
 		787F86861F7A65350081D519 /* UIColor+HexString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HexString.h"; sourceTree = "<group>"; };
 		787F86871F7A65350081D519 /* UIColor+HexString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HexString.m"; sourceTree = "<group>"; };
+		A54029401FD2F5E80076C2F1 /* NetworkManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetworkManager.h; sourceTree = "<group>"; };
+		A54029411FD2F5E80076C2F1 /* NetworkManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetworkManager.m; sourceTree = "<group>"; };
+		A5FACDC71FD3010300B2101A /* RaveEncryption.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RaveEncryption.h; sourceTree = "<group>"; };
+		A5FACDC81FD3010300B2101A /* RaveEncryption.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RaveEncryption.m; sourceTree = "<group>"; };
+		A5FACDCA1FD30DD100B2101A /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		BCF3FA69DD4FAC8D1395502B /* Pods-RaveObjCDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RaveObjCDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RaveObjCDemoUITests/Pods-RaveObjCDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
 		C3411604A989DA852C8976F6 /* Pods-RaveObjCDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RaveObjCDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RaveObjCDemoTests/Pods-RaveObjCDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		E591422A81F84B0DFDC2E866 /* Pods-RaveObjCDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RaveObjCDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RaveObjCDemoTests/Pods-RaveObjCDemoTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -84,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5FACDCB1FD30DD100B2101A /* Security.framework in Frameworks */,
 				DC362D862FDA83A80B0D73A9 /* Pods_RaveObjCDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -110,6 +119,7 @@
 		517C5F1F6FE1DDD9AB75CCEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A5FACDCA1FD30DD100B2101A /* Security.framework */,
 				3CFEB151BF5D75D66ABA66D5 /* Pods_RaveObjCDemo.framework */,
 				5C12C6D7A43B03E7EE3E1200 /* Pods_RaveObjCDemoTests.framework */,
 				4FAD6C10690D988E16940A34 /* Pods_RaveObjCDemoUITests.framework */,
@@ -142,6 +152,8 @@
 		787F86481F7A33FB0081D519 /* RaveObjCDemo */ = {
 			isa = PBXGroup;
 			children = (
+				A5FACDC61FD300ED00B2101A /* Encryption */,
+				A540293F1FD2F5AC0076C2F1 /* NetworkManager */,
 				787F86851F7A64820081D519 /* Utils */,
 				787F86811F7A634D0081D519 /* Rave */,
 				787F867D1F7A34840081D519 /* CustomViews */,
@@ -235,6 +247,24 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		A540293F1FD2F5AC0076C2F1 /* NetworkManager */ = {
+			isa = PBXGroup;
+			children = (
+				A54029401FD2F5E80076C2F1 /* NetworkManager.h */,
+				A54029411FD2F5E80076C2F1 /* NetworkManager.m */,
+			);
+			path = NetworkManager;
+			sourceTree = "<group>";
+		};
+		A5FACDC61FD300ED00B2101A /* Encryption */ = {
+			isa = PBXGroup;
+			children = (
+				A5FACDC71FD3010300B2101A /* RaveEncryption.h */,
+				A5FACDC81FD3010300B2101A /* RaveEncryption.m */,
+			);
+			path = Encryption;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -311,7 +341,7 @@
 				TargetAttributes = {
 					787F86451F7A33FB0081D519 = {
 						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = EEN5SMD5RF;
+						DevelopmentTeam = QRGN64L84L;
 						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
@@ -437,7 +467,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		AAF141542442B1E025268630 /* [CP] Embed Pods Frameworks */ = {
@@ -470,7 +500,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		DED994D9576978223A5854C5 /* [CP] Copy Pods Resources */ = {
@@ -525,7 +555,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -539,9 +569,11 @@
 				787F86881F7A65350081D519 /* UIColor+HexString.m in Sources */,
 				787F86841F7A636F0081D519 /* RavePayController.m in Sources */,
 				7800D59B1F7B8B4400AFC430 /* Constants.m in Sources */,
+				A5FACDC91FD3010300B2101A /* RaveEncryption.m in Sources */,
 				787F86511F7A33FB0081D519 /* ViewController.m in Sources */,
 				787F864E1F7A33FB0081D519 /* AppDelegate.m in Sources */,
 				787F86801F7A349A0081D519 /* CustomSegementControl.swift in Sources */,
+				A54029421FD2F5E80076C2F1 /* NetworkManager.m in Sources */,
 				787F864B1F7A33FB0081D519 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -694,7 +726,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = EEN5SMD5RF;
+				DEVELOPMENT_TEAM = QRGN64L84L;
 				INFOPLIST_FILE = RaveObjCDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -713,7 +745,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = EEN5SMD5RF;
+				DEVELOPMENT_TEAM = QRGN64L84L;
 				INFOPLIST_FILE = RaveObjCDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
